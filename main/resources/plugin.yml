@@ -1,0 +1,21 @@
+name: Test
+version: '${project.version}'
+main: me.kavin.test.Test
+api-version: 1.19
+authors: [ Trading, Catz7 ]
+description: Sample plugin
+commands:
+  flash:
+    description: Gives player max speed
+    aliases: fl
+    usage: /flash
+  white:
+    description: Changes player name color back to white
+    aliases: w
+    usage: /white
+  red:
+    description: Changes player name color to red
+    aliases: r
+    usage: /red
+
+
